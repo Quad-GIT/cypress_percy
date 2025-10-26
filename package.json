@@ -1,0 +1,42 @@
+{
+  "description": "D&D Team QA Automation",
+  "author": "Saurabh Jain",
+  "dependencies": {
+    "@infosimples/node_two_captcha": "^1.2.0",
+    "browserstack-cypress-cli": "^1.0.1",
+    "cypress-parallel": "^0.13.0",
+    "cypress-xpath": "^1.6.2",
+    "fs": "0.0.1-security",
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "mocha-simple-html-reporter": "^2.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.1.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "@percy/cypress": "^3.1.6",
+    "@types/mochawesome": "^6.2.0",
+    "@types/node": "^14.0.12",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "chai": "^4.3.10",
+    "cy-verify-downloads": "^0.1.14",
+    "cypress": "^12.17.4",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-xpath": "^1.6.2",
+    "eslint": "^7.2.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-import": "^2.21.1",
+    "typescript": "^3.9.5"
+  },
+  "name": "dnd_automation",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "license": "ISC"
+}

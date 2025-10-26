@@ -1,0 +1,39 @@
+{
+  "auth": {
+    "username": "",
+    "access_key": ""
+  },
+  "run_settings": {
+    "cypress_version": "12",
+    "node_version": "18.17.0",
+    "parallels": 2,
+    "exclude": ["screenshots/*", "reports/*", "videos/*"],
+    "npm_dependencies": {
+      "cypress-iframe": "^1.0.1",
+      "cypress-multi-reporters": "^1.5.0",
+      "@types/node": "^14.0.12",
+      "typescript": "^3.9.5",
+      "@types/mochawesome": "^6.2.0",
+      "mochawesome": "^6.1.1",
+      "cypress-xpath": "^1.6.2",
+      "cy-verify-downloads": "0.1.7",
+      "fs": "0.0.1-security",
+      "chai": "^4.3.10"
+    },
+    "project_name": "D&D",
+    "build_name": "DnD Automation Tests",
+    "headless": true,
+    "spec_timeout": 120,
+    "network_logs": true
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null,
+    "local_mode": null,
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false,
+  "engines": {
+    "node": "18.17.0"
+  }
+}

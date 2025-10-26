@@ -1,0 +1,20 @@
+version: 2
+percy:
+  token: web_e4e6135061e163abc00ceac3815417e8fb5b49ec9b860bc0484a0fb9f4e3daaa
+snapshot:
+  widths:
+    - 375
+    - 1280
+  minHeight: 1024
+  percyCSS: ""
+  enableJavaScript: false
+  cliEnableJavaScript: true
+  disableShadowDOM: false
+discovery:
+  allowedHostnames: []
+  disallowedHostnames: []
+  networkIdleTimeout: 100
+upload:
+  files: "**/*.{png,jpg,jpeg}"
+  ignore: ""
+  stripExtensions: false
