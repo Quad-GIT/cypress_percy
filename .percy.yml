@@ -1,6 +1,6 @@
 version: 2
 percy:
-  token: web_e4e6135061e163abc00ceac3815417e8fb5b49ec9b860bc0484a0fb9f4e3daaa
+  token: web_ca40126d393e3e0a29cdb4b880fbe384e60a26e4a57cc9b1a94623d491c2ddba
 snapshot:
   widths:
     - 375
